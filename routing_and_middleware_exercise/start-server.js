@@ -1,5 +1,5 @@
 const app = require("./app");
 
-app.listen(3000, () => {
-    console.log('Server Running')
+app.listen(3000, function() {
+    console.log("Server Running");
 })
